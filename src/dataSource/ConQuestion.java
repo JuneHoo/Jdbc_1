@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class ConQuestion {
-
+    // 应该用数据库链接池技术
     @Test
     public void testCon() throws SQLException {
         long start = System.currentTimeMillis();
